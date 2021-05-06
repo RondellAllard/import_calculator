@@ -1,0 +1,288 @@
+<div id="Content">
+	<div class="content_wrapper clearfix">
+
+		<div class="sections_group">
+
+			<div class="entry-content" itemprop="mainContentOfPage">
+
+				<div class="section mcb-section mcb-section-u8b5s1cfm" style="padding-top:80px;padding-bottom:20px"><div class="section_wrapper mcb-section-inner"><div class="wrap mcb-wrap mcb-wrap-y0cmj2lue one  valign-top clearfix" style=""><div class="mcb-wrap-inner"><div class="column mcb-column mcb-item-wm6lacgts one column_column"><div class="column_attr clearfix align_center" style=""><h2>Shipping Estimates</h2>
+Use our calculator below to get an estimate on the cost of your shipment</div></div></div></div></div></div><div class="section mcb-section mcb-section-mi8zn2tn2" style=""><div class="section_wrapper mcb-section-inner"><div class="wrap mcb-wrap mcb-wrap-a6fre6tey two-fifth  valign-top clearfix" style=""><div class="mcb-wrap-inner"><div class="column mcb-column mcb-item-3frahkuqh one column_column"><div class="column_attr clearfix" style=""><div class="calculator">
+<form id="esitmate" onsubmit="calc(); return false;">
+  <label for="type">FREIGHT TYPE</label>
+  <select id="type">
+    <option value="null">Please Select A Freight Type</option>
+    <option value="Air" selected="">Air</option>
+    <option value="Ocean">Ocean</option>
+  </select>
+  <label for="DutyClass">ITEM DESCRIPTION</label>
+ <select id="DutyClass">
+  <option value="20">Air Conditioners | 20% Duty</option>
+  <option value="0">Air compressors (on wheels) | 0% Duty</option>
+  <option value="20">Album/stationery supplies | 20% Duty</option>
+  <option value="20">ALL CLOTHING (BABY | 20% Duty</option>
+  <option value="0">Alumium Frames | 0% Duty</option>
+  <option value="20">Appliances | 20% Duty</option>
+  <option value="20">Artificial flowers/Foliage/ Home decoration | 20% Duty</option>
+  <option value="30">Auto parts (Rims/Wheels | 30% Duty</option>
+  <option value="0">Baby Car Seats and Strollers | 0% Duty</option>
+  <option value="20">Barbeque grills (gas) | 20% Duty</option>
+  <option value="20">Batteries (Primary cells &amp; Lead-Acid) | 20% Duty</option>
+  <option value="20">Bed Sheet Sets/ Blankets | 20% Duty</option>
+  <option value="20">Belts (Leather) | 20% Duty</option>
+  <option value="0">Bicycle parts | 0% Duty</option>
+  <option value="20">Bicycles (Fixed and regular) | 20% Duty</option>
+  <option value="0">Binoculars | 0% Duty</option>
+  <option value="0">Blank DVDs &amp; CDs | 0% Duty</option>
+  <option value="20">Blenders | 20% Duty</option>
+  <option value="0">Bluetooth Headsets | 0% Duty</option>
+  <option value="0">Boat engine parts | 0% Duty</option>
+  <option value="0">Books (Educational books) | 0% Duty</option>
+  <option value="20">Bottles (glass) | 20% Duty</option>
+  <option value="15">Bottles (plastic) | 15% Duty</option>
+  <option value="20">Boxes | 20% Duty</option>
+  <option value="20">BREAD MAKERS | 20% Duty</option>
+  <option value="20">Brouchures/phamphlets | 20% Duty</option>
+  <option value="0">Cables | 0% Duty</option>
+  <option value="20">Connectors | 20% Duty</option>
+  <option value="0">Calculators | 0% Duty</option>
+  <option value="20">Call cards | 20% Duty</option>
+  <option value="20">CAMCORDERS | 20% Duty</option>
+  <option value="20">Camera/ Camera Lens | 20% Duty</option>
+  <option value="20">CAMERAS (DIGITAL) | 20% Duty</option>
+  <option value="25">CAMERAS (FILM | 25% Duty</option>
+  <option value="30">Car Accessories | 30% Duty</option>
+  <option value="30">Car Parts/ Accessories | 30% Duty</option>
+  <option value="20">Carpets/ Rugs | 20% Duty</option>
+  <option value="20">Case | 20% Duty</option>
+  <option value="0">CASH REGISTER Machines | 0% Duty</option>
+  <option value="20">Catalogues | 20% Duty</option>
+  <option value="20">CD / MP3 PLAYERS | 20% Duty</option>
+  <option value="0">CD/DVD ROM (software) | 0% Duty</option>
+  <option value="0">CDs (UNRECORDED) | 0% Duty</option>
+  <option value="20">Cellular Phones and Accessories | 20% Duty</option>
+  <option value="20">Ceramic Tableware/ Ornaments | 20% Duty</option>
+  <option value="20">Christmas Tree (artificial)/ Lights | 20% Duty</option>
+  <option value="0">Circuit Board | 0% Duty</option>
+  <option value="40">Coffee | 40% Duty</option>
+  <option value="40">Coffee | 40% Duty</option>
+  <option value="20">Coffee/Tea Makers | 20% Duty</option>
+  <option value="0">Commercial Dryer (clothes) | 0% Duty</option>
+  <option value="20">Computer Accessories | 20% Duty</option>
+  <option value="0">Computer Case | 0% Duty</option>
+  <option value="0">COMPUTER MODEMS / HUBS / ROUTERS | 0% Duty</option>
+  <option value="0">Computer Parts &amp; Monitors | 0% Duty</option>
+  <option value="0">COMPUTER PROJECTORS | 0% Duty</option>
+  <option value="0">COMPUTER SOFTWARE (CD FORMAT) | 0% Duty</option>
+  <option value="0">COMPUTER SOFTWARE (DVD FORMAT) | 0% Duty</option>
+  <option value="0">Computer Systems | 0% Duty</option>
+  <option value="0">Computer Tower | 0% Duty</option>
+  <option value="99">COMPUTERS (LAPTOPS) | 0% Duty | 0% VAT | 0% OPT</option>
+  <option value="0">Contact lenses | 0% Duty</option>
+  <option value="0">Contacts/ Spectacle Lenses | 0% Duty</option>
+  <option value="20">Cooling Fan | 20% Duty</option>
+  <option value="20">Cosmetics/ Make up | 20% Duty</option>
+  <option value="0">CPU tower | 0% Duty</option>
+  <option value="20">CURTAINS / DRAPES | 20% Duty</option>
+  <option value="20">Curtains/ Drapes/ Table cloths | 20% Duty</option>
+  <option value="10">Dental Supply | 10% Duty</option>
+  <option value="20">Digital Cameras | 20% Duty</option>
+  <option value="20">Dishwasher (household) | 20% Duty</option>
+  <option value="20">DISHWASHERS (HOUSEHOLD) | 20% Duty</option>
+  <option value="20">DISPOSABLE DIAPERS (BABY) | 20% Duty</option>
+  <option value="20">Dog/ Cat food | 20% Duty</option>
+  <option value="0">Drum Unit for Printer | 0% Duty</option>
+  <option value="0">DRYERS commercial (CLOTHES) | 0% Duty</option>
+  <option value="20">DRYERS domestic (CLOTHES) | 20% Duty</option>
+  <option value="30">DVD PLAYERS | 30% Duty</option>
+  <option value="20">DVDs/ CDs | 20% Duty</option>
+  <option value="20">DVDs (RECORDED) | 20% Duty</option>
+  <option value="0">DVDs (UNRECORDED) | 0% Duty</option>
+  <option value="30">DVR | 30% Duty</option>
+  <option value="20">ELECTRIC STOVES / COOKERS | 20% Duty</option>
+  <option value="20">Electronics | 20% Duty</option>
+  <option value="0">Ethernet Hub | 0% Duty</option>
+  <option value="0">Exercise Equipment | 0% Duty</option>
+  <option value="0">Fax and Line Modems | 0% Duty</option>
+  <option value="30">Filters | 30% Duty</option>
+  <option value="20">Flags | 20% Duty</option>
+  <option value="0">Flash Drive | 0% Duty</option>
+  <option value="20">FLOOR FANS | 20% Duty</option>
+  <option value="20">Food items | 20% Duty</option>
+  <option value="20">Food Supplements/ Vitamins | 20% Duty</option>
+  <option value="10">FURNITURE (OFFICE TYPE) | 10% Duty</option>
+  <option value="20">FURNITURE (OTHER) | 20% Duty</option>
+  <option value="20">Garden Supplies | 20% Duty</option>
+  <option value="20">Glassware | 20% Duty</option>
+  <option value="0">Gloves (medical) | 0% Duty</option>
+  <option value="10">Gloves (rubber) | 10% Duty</option>
+  <option value="20">Gloves (sporting) | 20% Duty</option>
+  <option value="0">GPS tracker | 0% Duty</option>
+  <option value="0">Hair (Human/ Animal Textile) | 0% Duty</option>
+  <option value="20">HAIR ACCESSORIES | 20% Duty</option>
+  <option value="20">Hair Dryers/ flat irons | 20% Duty</option>
+  <option value="0">Hand Held Tools | 0% Duty</option>
+  <option value="20">Handbags/ Purses/ Wallets | 20% Duty</option>
+  <option value="0">Hard Drive | 0% Duty</option>
+  <option value="0">Hose | 0% Duty</option>
+  <option value="0">Ink Cartridges | 0% Duty</option>
+  <option value="20">IPods/ Musical Storage Devices | 20% Duty</option>
+  <option value="20">Irons (clothing) | 20% Duty</option>
+  <option value="30">JEWELLERY (GOLD/SILVER) | 30% Duty</option>
+  <option value="30">JEWELLERY (IMITATION) | 30% Duty</option>
+  <option value="30">JEWELLERY (OTHER PRECIOUS METAL) | 30% Duty</option>
+  <option value="20">JUICERS | 20% Duty</option>
+  <option value="20">Kitchen Knives/Utensils | 20% Duty</option>
+  <option value="20">Lamps/ Lighting Fittings | 20% Duty</option>
+  <option value="99">Laptops | 0% Duty</option>
+  <option value="20">Lights | 20% Duty</option>
+  <option value="0">Locks | 0% Duty</option>
+  <option value="0">Machine Parts | 0% Duty</option>
+  <option value="0">Machines /Power washers | 0% Duty</option>
+  <option value="20">Media Players | 20% Duty</option>
+  <option value="10">Medical Supplies | 10% Duty</option>
+  <option value="20">Microwave Ovens | 20% Duty</option>
+  <option value="30">MISCELLANEOUS ITEMS | 30% Duty</option>
+  <option value="0">Mother Boards | 0% Duty</option>
+  <option value="0">Motobike tyres | 0% Duty</option>
+  <option value="10">Musical Equipment | 10% Duty</option>
+  <option value="20">Party supplies/ Costumes | 20% Duty</option>
+  <option value="20">Perfumes/Colognes/Body splash/ Lotions | 20% Duty</option>
+  <option value="0">Personal effects (Returning citizens) | 0% Duty</option>
+  <option value="20">PICTURES / PHOTOGRAPHS / POSTERS | 20% Duty</option>
+  <option value="0">Plumbing | 0% Duty</option>
+  <option value="0">Power washers | 0% Duty</option>
+  <option value="0">Printer | 0% Duty</option>
+  <option value="0">Printer Cartridge/ toner | 0% Duty</option>
+  <option value="0">Printer parts | 0% Duty</option>
+  <option value="0">Printers &amp; 3-in-One machines | 0% Duty</option>
+  <option value="0">Processors | 0% Duty</option>
+  <option value="20">Projector (computer) | 20% Duty</option>
+  <option value="15">PVC fittings | 15% Duty</option>
+  <option value="20">Refrigerators/ Freezers | 20% Duty</option>
+  <option value="0">Routers | 0% Duty</option>
+  <option value="0">SCANNERS | 0% Duty</option>
+  <option value="0">Security System with Monitor | 0% Duty</option>
+  <option value="20">Security System without Monitor | 20% Duty</option>
+  <option value="0">SEWING MACHINES | 0% Duty</option>
+  <option value="20">Shoes/ walking/ casual | 20% Duty</option>
+  <option value="0">SIM CARDS / SMART CARDS | 0% Duty</option>
+  <option value="20">Speakers | 20% Duty</option>
+  <option value="0">Spectacle frames/Lens | 0% Duty</option>
+  <option value="20">Spectacles (corrective) | 20% Duty</option>
+  <option value="0">Spectacles | 0% Duty</option>
+  <option value="10">Sporting Article | 10% Duty</option>
+  <option value="20">STEREOS (MOTOR VEHICLES) | 20% Duty</option>
+  <option value="20">STOVES / RANGES (GAS) | 20% Duty</option>
+  <option value="20">SUNGLASSES | 20% Duty</option>
+  <option value="0">SURGE PROTECTORS | 0% Duty</option>
+  <option value="0">Switches | 0% Duty</option>
+   <option value="99">TABLETS | 0% Duty | 0% VAT | 0% OPT</option>
+  <option value="20">Telephones (cordless) | 20% Duty</option>
+  <option value="20">Televisions | 20% Duty</option>
+  <option value="0">Tiles (Vinyl) | 0% Duty</option>
+  <option value="20">TOASTER OVENS | 20% Duty</option>
+  <option value="0">Tools | 0% Duty</option>
+  <option value="20">Toys | 20% Duty</option>
+  <option value="20">Tripod | 20% Duty</option>
+  <option value="20">TV box | 20% Duty</option>
+  <option value="0">UPS/ Power Supply | 0% Duty</option>
+  <option value="0">USB Flash Drives | 0% Duty</option>
+  <option value="20">Vacuum Cleaner | 20% Duty</option>
+  <option value="20">Video Cassette Recorders (VCR) | 20% Duty</option>
+  <option value="20">Video game &amp; Consoles | 20% Duty</option>
+  <option value="20">Vitamins and Food Supplements | 20% Duty</option>
+  <option value="20">Washing Machine&nbsp;(DOMESTIC =&lt; 10 KG) | 20% Duty</option>
+  <option value="30">Washing Machine&nbsp;(DOMESTIC &gt; 10 KG) | 30% Duty</option>
+  <option value="30">Watches/Clocks | 30% Duty</option>
+  <option value="0">Weed wacker | 0% Duty</option>
+  <option value="20">Wigs | 20% Duty</option>
+</select><br>
+  <label for="InvoiceTotal">USD INVOICE TOTAL</label>
+  <input id="InvoiceTotal" type="number" required=""><br>
+  <label for="Weight">SHIPPING WEIGHT OF ITEM IN LBS</label>
+  <input id="Weight" type="number" required="">
+  <input type="submit">  <input type="reset">
+</form>
+</div></div></div></div></div><div class="wrap mcb-wrap mcb-wrap-p3g7rxr2r three-fifth  valign-top clearfix" style=""><div class="mcb-wrap-inner"><div class="column mcb-column mcb-item-pm463rwdm one column_column"><div class="column_attr clearfix" style=""><div class="calculator">
+<span id="table">
+  <table border="1">
+  <tbody><tr>
+    <th>Description of Charges</th>
+    <th>Count (Lbs/CF)</th>
+    <th>USD charges</th>
+    <th>TTD charges</th>
+  </tr>
+    <tr>
+    <td>Freight Charges</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Fuel surcharge</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Online purchase tax</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Customs Duties</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Local handling fee</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Insurance</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Customs VAT</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+  <tr>
+    <td>Total</td>
+    <td></td>
+    <td></td>
+    <td></td>
+  </tr>
+</tbody></table>
+</span>
+</div></div></div></div></div></div></div><div class="section mcb-section mcb-section-vqtxvnidw" style=""><div class="section_wrapper mcb-section-inner"><div class="wrap mcb-wrap mcb-wrap-vxl5d15zn one  valign-top clearfix" style=""><div class="mcb-wrap-inner"><div class="column mcb-column mcb-item-6f39ffaot one column_column"><div class="column_attr clearfix" style="">The information provided by the shipping calculator is only an estimate. It is a tool provided to be used only as guidance for an estimated value of items. The figures calculated by use of this shipping calculator is based on data inputted by the user. The Courier Guys has no control over this. Therefore, The Courier Guys will not be held liable for any variation between the figures derived from use of this shipping calculator and actual charges incurred by the customer.</div></div></div></div></div></div><div class="section mcb-section mcb-section-yvcus4rha" style=""><div class="section_wrapper mcb-section-inner"><div class="wrap mcb-wrap mcb-wrap-jkasgbied one  valign-top clearfix" style=""><div class="mcb-wrap-inner"><div class="column mcb-column mcb-item-oo0pok889 one column_column"><div class="column_attr clearfix" style=""><script>function calc(){var results=document.getElementById("table");var cost=document.getElementById("InvoiceTotal").value;var item_type=document.getElementById("DutyClass").value
+var weight=document.getElementById("Weight").value;var type=document.getElementById("type").value;var Tax_Rate=0.125;var HandlingFee=2;var USD_Rate=6.90;var BrokerFee;BrokerFee=3.90*1.0;var BrokerageFee_TTD=30.00*1.0;console.log(BrokerageFee_TTD);BrokerFee=Math.round((BrokerFee+Number.EPSILON)*100)/100;BrokerageFee_TTD=Math.round((BrokerageFee_TTD+Number.EPSILON)*100)/100;console.log(BrokerageFee_TTD);var greater250=!1;item_type=item_type*1;cost=cost*1;var Duty;var surcharge_rate_USD=0;if(type=="Air"){if(weight<0.5){weight=0.5;surcharge_rate_USD=2.50}else if(weight>=0.5&&weight<1){surcharge_rate_USD=3.99}else if(weight>=1&&weight<2){surcharge_rate_USD=3.99}else if(weight>=2&&weight<3){surcharge_rate_USD=7.49}else if(weight>=3&&weight<4){surcharge_rate_USD=8.99}else if(weight>=4&&weight<5){surcharge_rate_USD=11.99}else if(weight>=5&&weight<6){surcharge_rate_USD=14.99}else if(weight>=6&&weight<7){surcharge_rate_USD=17.99}else if(weight>=7&&weight<8){surcharge_rate_USD=19.99}else if(weight>=8&&weight<9){surcharge_rate_USD=22.99}else if(weight>=9&&weight<10){surcharge_rate_USD=27.99}else if(weight>=10&&weight<11){surcharge_rate_USD=30.99}else if(weight>=11&&weight<12){surcharge_rate_USD=32.99}else if(weight>=12&&weight<13){surcharge_rate_USD=36.99}else if(weight>=13&&weight<14){surcharge_rate_USD=39.99}else if(weight>=14&&weight<15){surcharge_rate_USD=42.99}else if(weight>=15&&weight<16){surcharge_rate_USD=45.99}else if(weight>=16&&weight<=100){surcharge_rate_USD=3.50*weight}else if(weight>=101&&weight<=250){surcharge_rate_USD=3.40*weight}else if(weight>250){greater250=!0}}else if(type=="Ocean"){console.log(weight);if(weight<1){weight=1;surcharge_rate_USD=2.50}else if(weight>=1&&weight<=50){surcharge_rate_USD=1.65*weight}else if(weight>=51&&weight<=100){surcharge_rate_USD=1.55*weight}else if(weight>=101&&weight<=250){surcharge_rate_USD=1.45*weight}else if(weight>250){greater250=!0}}
+var insurance;var insurance_TTD;console.log("pre cost: "+cost);cost=cost/100;console.log("post cost: "+cost);insurance=Math.floor(cost);console.log("insurance: "+insurance);insurance_TTD=insurance*USD_Rate;var surcharge_fee_USD=0;var surcharge_fee_TTD=0;var surcharge_rate_TTD=surcharge_rate_USD*USD_Rate;surcharge_fee_USD=surcharge_rate_USD*0.17;if(type=="Air"){surcharge_fee_USD=surcharge_rate_USD*0.17;surcharge_fee_TTD=(surcharge_rate_TTD*0.17)}else{surcharge_fee_USD=0;surcharge_fee_TTD=0}
+var CIF=(cost*100)+surcharge_rate_USD;console.log("cost: "+cost);console.log("surcharge_rate_USD: "+surcharge_rate_USD);console.log("CIF: "+CIF);if(item_type!=99){Duty=CIF*(item_type/100)}else{Duty=0.00}
+if(type=="Air"){if(item_type!=99){var OPT=CIF*0.07}else{OPT=0}}else{var OPT=0.00}
+if(item_type!=99){var VAT=(CIF+OPT+Duty+HandlingFee)*0.125}else{var VAT=0}
+OPT=Math.round((OPT+Number.EPSILON)*100)/100;surcharge_rate_TTD=Math.round((surcharge_rate_TTD+Number.EPSILON)*100)/100;surcharge_fee_TTD=Math.round((surcharge_fee_TTD+Number.EPSILON)*100)/100;VAT=Math.round((VAT+Number.EPSILON)*100)/100;Duty=Math.round((Duty+Number.EPSILON)*100)/100;var HandlingFee_TTD=HandlingFee*6.9;var VAT_TTD=VAT*USD_Rate;console.log("VAT: "+VAT);console.log("TTD VAT: "+VAT_TTD);var Total;Total=surcharge_rate_USD+surcharge_fee_USD+OPT+Duty+HandlingFee+insurance+VAT;var Total_Ocean;Total_Ocean=surcharge_rate_USD+BrokerFee+Duty+HandlingFee+insurance+VAT;Total=Math.round((Total+Number.EPSILON)*100)/100;var TTD=cost*USD_Rate;var OPT_TTD=OPT*USD_Rate;surcharge_rate_USD;surcharge_fee_USD;var Duty_TTD=Duty*USD_Rate;var Total_TTD=Total*USD_Rate;var Total_Ocean_TTD=Total_Ocean*USD_Rate;console.log(Total_Ocean_TTD);HandlingFee=Math.round((HandlingFee+Number.EPSILON)*100)/100;HandlingFee_TTD=Math.round((HandlingFee_TTD+Number.EPSILON)*100)/100;OPT=Math.round((OPT+Number.EPSILON)*100)/100;surcharge_rate_USD=Math.round((surcharge_rate_USD+Number.EPSILON)*100)/100;surcharge_fee_USD=Math.round((surcharge_fee_USD+Number.EPSILON)*100)/100;console.log("surcharge_fee_USD round: "+surcharge_fee_USD);Duty_TTD=Math.round((Duty_TTD+Number.EPSILON)*100)/100;Total_TTD=Math.round((Total_TTD+Number.EPSILON)*100)/100;Total_Ocean_TTD=Math.round((Total_Ocean_TTD+Number.EPSILON)*100)/100;VAT_TTD=Math.round((VAT_TTD+Number.EPSILON)*100)/100;insurance=Math.round((insurance+Number.EPSILON)*100)/100;insurance_TTD=Math.round((insurance_TTD+Number.EPSILON)*100)/100;HandlingFee=HandlingFee.toFixed(2);HandlingFee_TTD=HandlingFee_TTD.toFixed(2);OPT_TTD=OPT_TTD.toFixed(2);surcharge_rate_USD=surcharge_rate_USD.toFixed(2);surcharge_fee_USD=surcharge_fee_USD.toFixed(2);Duty_TTD=Duty_TTD.toFixed(2);Total_TTD=Total_TTD.toFixed(2);Total_Ocean_TTD=Total_Ocean_TTD.toFixed(2);VAT_TTD=VAT_TTD.toFixed(2);insurance=insurance.toFixed(2);insurance_TTD=insurance_TTD.toFixed(2);OPT=OPT.toFixed(2);surcharge_rate_TTD=surcharge_rate_TTD.toFixed(2);surcharge_fee_TTD=surcharge_fee_TTD.toFixed(2);Duty=Duty.toFixed(2);Total=Total.toFixed(2);Total_Ocean=Total_Ocean.toFixed(2);VAT=VAT.toFixed(2);if(greater250==!0&&type!="null"){results.innerHTML="<h2 style='text-align:center'>Please Contact Our Offices to Get a More Accurate Quote</h2><button href='/contact'>Contact Us</button>"}else if(type=="Air"){results.innerHTML="<table border='1'> <tr> <th>Description of Charges</th> <th>Count (Lbs/CF)</th> <th>USD charges</th> <th>TTD charges</th> </tr><tr> <td>Freight Charges</td><td>"+weight+"</td><td>$"+surcharge_rate_USD+"</td><td>$"+surcharge_rate_TTD+"</td></tr><tr> <td>Fuel surcharge</td><td>1</td><td>$"+surcharge_fee_USD+"</td><td>$"+surcharge_fee_TTD+"</td></tr><tr> <td>Online purchase tax</td><td>1</td><td>$"+OPT+"</td><td>$"+OPT_TTD+"</td></tr><tr> <td>Customs Duties</td><td>1</td><td>$"+Duty+"</td><td>$"+Duty_TTD+"</td></tr><tr> <td>Local Handling fee</td><td>1</td><td>$2.25</td><td>$15.53</td></tr><tr> <td>Insurance</td><td>1</td><td>$"+insurance+"</td><td>$"+insurance_TTD+"</td></tr><tr><tr> <td>Customs VAT</td><td>1</td><td>$"+VAT+"</td><td>$"+VAT_TTD+"</td></tr> <td>Total</td><td></td><td>$"+Total+"</td><td>$"+Total_TTD+"</td></tr></table>"}else if(type=="Ocean"){results.innerHTML="<table border='1'> <tr> <th>Description of Charges</th> <th>Count (Lbs/CF)</th> <th>USD charges</th> <th>TTD charges</th> </tr><tr> <td>Freight Charges</td><td>"+weight+"</td><td>$"+surcharge_rate_USD+"</td><td>$"+surcharge_rate_TTD+"</td></tr><tr> <td>Brokerage Fee</td><td>1</td><td>$3.90</td><td>$30.00</td></tr><tr> <td>Customs Duties</td><td>1</td><td>$"+Duty+"</td><td>$"+Duty_TTD+"</td></tr><tr> <td>Handling fee</td><td>1</td><td>$2.25</td><td>$15.53</td></tr><tr> <td>Insurance</td><td>1</td><td>$"+insurance+"</td><td>$"+insurance_TTD+"</td></tr><tr><tr> <td>Customs VAT</td><td>1</td><td>$"+VAT+"</td><td>$"+VAT_TTD+"</td></tr> <td>Total</td><td></td><td>$"+Total_Ocean+"</td><td>$"+Total_Ocean_TTD+"</td></tr></table>"}else if(type=="null"){results.innerHTML="<h2 style='text-align:center'>Please Select a Freight Type To Begin Calculation</h2>"}}</script></div></div></div></div></div></div><div class="section the_content no_content"><div class="section_wrapper"><div class="the_content_wrapper "></div></div></div>
+				<div class="section section-page-footer">
+					<div class="section_wrapper clearfix">
+
+						<div class="column one page-pager">
+													</div>
+
+					</div>
+				</div>
+
+			</div>
+
+			
+		</div>
+
+		
+	</div>
+</div>
