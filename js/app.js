@@ -76,25 +76,25 @@ const freightRow = document.createElement('tr')
 
     summaryTable.append(freightRow, td11, td12, td13)
 
-const fuelRow = document.createElement('tr')
-  const td21 = document.createElement('td')
-    td21.textContent = "Fuel"
-  const td22 = document.createElement('td')
-    td22.textContent = "$0"
-  const td23 = document.createElement('td')
-    td23.textContent = "$0"
+// const fuelRow = document.createElement('tr')
+//   const td21 = document.createElement('td')
+//     td21.textContent = "Fuel"
+//   const td22 = document.createElement('td')
+//     td22.textContent = "$0"
+//   const td23 = document.createElement('td')
+//     td23.textContent = "$0"
 
-  summaryTable.append(fuelRow, td21, td22, td23)
+//   summaryTable.append(fuelRow, td21, td22, td23)
 
-const insuranceRow = document.createElement('tr')
-  const td31 = document.createElement('td')
-    td31.textContent = "Insurance"
-  const td32 = document.createElement('td')
-    td32.textContent = "$0"
-  const td33 = document.createElement('td')
-    td33.textContent = "$0"
+// const insuranceRow = document.createElement('tr')
+//   const td31 = document.createElement('td')
+//     td31.textContent = "Insurance"
+//   const td32 = document.createElement('td')
+//     td32.textContent = "$0"
+//   const td33 = document.createElement('td')
+//     td33.textContent = "$0"
 
-  summaryTable.append(insuranceRow, td31, td32, td33)
+  // summaryTable.append(insuranceRow, td31, td32, td33)
 const dutyRow = document.createElement('tr')
   const td41 = document.createElement('td')
     td41.textContent = "Duty"
