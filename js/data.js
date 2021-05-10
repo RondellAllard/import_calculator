@@ -296,7 +296,7 @@ const customTaxList = [
 	vat: .125
 },
 {
-  name: "0zers",
+  name: "freezers",
 	duty: .20,
 	vat: .125
 },

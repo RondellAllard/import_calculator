@@ -1,12 +1,24 @@
 // Coding path for estimate calculator // Render form - Create the form element. // Append  to it  each input. // Append drop down list // Append calculate button // Append summary break down table.// Append total cost// Append reset button // Append data list to drop down list // Create reset function that sets all input options to their default option // Set input fields to only allow  positive integers . For weight and positive 2 point floating numbers for dollars. // Create variable for use to conversion rate. // Render notification text to appear if the end
 let invoiceValueUSD = ""
+let weightValue = ""
 //Dom Selectors for main form
 const body = document.querySelector('#wordpress')
 const mainForm = document.createElement('form')
+const shippingType = document.createElement('select')
+  shippingType.id = " shippingType"
+  const shippingMethodDefault = document.createElement('option')
+    shippingMethodDefault.text ="Select shipping Method"
+  const air = document.createElement('option')
+    air.text = "Air"
+    air.value ="air"
+  const sea = document.createElement('option')
+    sea.text = "Sea"
+    sea.value = "sea"
+    shippingType.append(shippingMethodDefault, air, sea)
 const categoryList = document.createElement('select')
   categoryList.id = "categoryList"
   const defaultCatOpt = document.createElement('option')
-    defaultCatOpt.text = "-- Choose Product Category --"
+    defaultCatOpt.text = "Choose Product Category"
       categoryList.append(defaultCatOpt)
 const invoiceUSD = document.createElement('input')
   invoiceUSD.type = "text"
@@ -18,8 +30,14 @@ const invoiceUSD = document.createElement('input')
     invoiceUSDFuncOut()
   })
 const weightInPounds = document.createElement('input')
-  weightInPounds.type = "number"
+  weightInPounds.type = "text"
   weightInPounds.placeholder = "Enter Weight in LBS"
+  weightInPounds.addEventListener('focus', () => {
+    weightFuncIn()
+  })
+  weightInPounds.addEventListener('focusout', () => {
+    weightFuncOut()
+  })
 const calculateBTN = document.createElement('input')
   calculateBTN.value = "Calculate Cost"
   calculateBTN.type = 'submit'
@@ -33,7 +51,7 @@ const resetBTN = document.createElement('input')
 
 //Rendering 
 body.append(mainForm)
-mainForm.append(categoryList,invoiceUSD, weightInPounds, calculateBTN, resetBTN)
+mainForm.append(shippingType, categoryList,invoiceUSD, weightInPounds, calculateBTN, resetBTN)
 renderCustomtaxList()
 
 //Dom Selectors fo summary documents
@@ -121,5 +139,5 @@ const totalESTRow = document.createElement('tr')
 
   calculateBTN.addEventListener('click', (e) => {
     e.preventDefault()
-    calculateAir()
+    calculateCost()
   })
